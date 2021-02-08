@@ -1,0 +1,13 @@
+in js, function is like liquid
+it can be object or just function and sometimes it cna be both of them (with .call(object, prefix))
+
+
+with .call function can be outside of object and be used like as a method temporarily
+
+with .bind(object, prefix) can be outside of object and when it is used as method, it make itself another function(permanently)
+
+var kimSum = sum.bind(kim, '=>');
+
+전혀 상관없는 객체에 함수자신이 포함되고 싶으면 포함 되는것도 모자라
+그 인스턴스의 맴버가 실시간으로 바꿔치기 된 상태로
+복제품(clone)이 되어 신분세탁이 된다.

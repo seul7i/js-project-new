@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	min-height: 800vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.game{
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#bl{
+    width: 70px;
+    height: 10px;
+    background: #4169e1;
+}
+
+#egg {
+    width: 33px;
+    height: 40px;
+    background: #ffc000;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.goose img{
+	width: 60px;
+	height: 80px;
+}
